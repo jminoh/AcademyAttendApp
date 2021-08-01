@@ -77,7 +77,7 @@ public class ListViewBtnAdapter extends ArrayAdapter implements View.OnClickList
         return convertView;
     }
 
-    // button2가 눌려졌을 때 실행되는 onClick함수.
+    // button2가 눌려졌을 때 실행되는 onClick 함수.
     public void onClick(View v) {
         // ListBtnClickListener(MainActivity)의 onListBtnClick() 함수 호출.
         if (this.listBtnClickListener != null) {
